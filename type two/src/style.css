@@ -1,0 +1,57 @@
+/* Define a largura da div container como 100% da largura disponível e permite rolagem horizontal se o conteúdo ultrapassar a largura da div */
+.container {
+  width: 100%;
+  overflow-x: auto; /* Permite rolagem horizontal */
+}
+
+/* Define os estilos da tabela */
+.rwd-table {
+  background-color: #34495E; /* Cor de fundo da tabela */
+  color: #fff; /* Cor do texto */
+  border: solid 1px; /* Borda sólida de 1px */
+  border-collapse: collapse; /* Colapsa as bordas adjacentes em uma única borda */
+  width: 100%; /* Largura da tabela é 100% do container */
+  text-align: center; /* Alinhamento centralizado do texto */
+  font-family: cursive; /* Fonte cursiva */
+}
+
+/* Define os estilos das células de cabeçalho da tabela */
+.rwd-table th {
+  padding: 0.5em 1em; /* Espaçamento interno das células de cabeçalho */
+  margin-right: 10px; /* Adiciona uma margem à direita do título */
+}
+
+/* Define os estilos da classe cabecalho */
+.cabecalho {
+  color: #dd5; /* Cor do texto */
+  font-family: 'Franklin Gothic Medium'; /* Fonte Franklin Gothic Medium */
+}
+
+/* Define os estilos para a classe cabecalho e o elemento thead */
+.cabecalho, thead {
+  font-size: 19px; /* Tamanho da fonte */
+  font-family: sans-serif; /* Fonte sem serifa */
+  padding: 10px; /* Espaçamento interno */
+}
+
+/* Define os estilos das células de dados da tabela */
+td {
+  padding: 0.5em 1em; /* Espaçamento interno das células de dados */
+  margin-right: 10px; /* Adiciona uma margem à direita das células de dados */
+}
+
+/* Estilos específicos para telas com largura máxima de 600px */
+@media only screen and (max-width: 600px) {
+  .cabecalho th,
+  td {
+    font-size: 16px; /* Ajusta o tamanho da fonte para dispositivos móveis */
+    padding: 5px; /* Ajusta o padding para dispositivos móveis */
+  }
+}
+
+
+
+
+
+
+
