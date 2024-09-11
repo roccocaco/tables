@@ -1,6 +1,6 @@
 # Tabelas de Filmes
 
-Este projeto apresenta duas tabelas HTML estilizadas com CSS. A primeira tabela exibe informações sobre filmes, e a segunda tabela exibe detalhes sobre violões. O objetivo é demonstrar como organizar e estilizar dados tabulares usando HTML e CSS.
+Este projeto apresenta duas tabelas HTML estilizadas com CSS. São duas tabelas bore filmes segunda tabela. O objetivo é demonstrar como organizar e estilizar dados tabulares usando HTML e CSS.
 
 ## Funcionalidades
 
